@@ -11,7 +11,7 @@ TODO:
 
 ...
 
-## Updated Settings
+## Updated QUIK settings
 
 | | def | new | description |
 | --- | --- | --- | --- |
@@ -30,5 +30,13 @@ TODO:
 | **\[excel]** |  |  |  |
 |  `language_id` | 1 | 0 | _Программа - Экспорт данных_ <br> Экспорт по DDE <br> MS Excel: &nbsp; :arrow_forward: Английский |
 
+## Updated Connection settings
 
+| | def | new | description |
+| --- | --- | --- | --- |
+| **\[connect]** |  |  | Меню: Система > Соединения > Просмотр доступных соединений |
+|  `auto-reconnect` | 0 | 1 | :ballot_box_with_check: Восстанавливать связь автоматически через ... секунд c ... до ... |
+|  `check-tmo` | 250 | 150 | через :arrow_forward: 15 секунд |
+|  `do-auto-reconnect-from-time` | 100000 | 94500 | c :clock10: 09:45:00 |
+|  `do-auto-reconnect-to-time` | 220000 | 235900 | до :clock12: 23:59:00 |
 
