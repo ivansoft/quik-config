@@ -10,3 +10,25 @@ TODO:
 - Grouping instrument classes into instruments markets: `markets.ini`
 
 ...
+
+## Updated Settings
+
+| | def | new | description |
+| --- | --- | --- | --- |
+| **\[data]** |  |  |  |
+|  `request-skipped` | 1 | 0 | _Программа - Сохранение данных_ <br> Сохранять для получаемых инструментов и параметров <br> &#x1F5F9; Данные, отражающие текущее состояние и всю историю изменений <br> &nbsp;&nbsp; :black_square_button: Получать пропущенные данные <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > (влияет на скорость работы) |
+| **\[transactions]** |  |  |  |
+| `save-dialog-position` | 0 | 1 | _Торговля - Заявки - Формы ввода_ <br> :ballot_box_with_check: Запоминать положение на экране <br> &#x1F5F9; Особо выделять ключевые параметры |
+| `ask-confirmation` | 1 | 0 | _Торговля - Заявки_ <br> :black_square_button: Запрашивать подтверждение <br> &#x1F5F9; Запрашивать подтверждение для групповых операций |
+| **\[ClosePositions]** |  |  |  |
+| `ask-close-positions-confirmation` | 1 | 0 | _Торговля - Закрытие позиций_ <br> :black_square_button: Запрашивать подтверждение на закрытие позиций <br> &#x1F5F9; Снимать стоп-заявки перед закрытием позиций |
+| **\[general]** |  |  |  |
+| `client-transaction-ask-confirmation-for-one-request` | 1 | 0 | _Торговля - Заявки - клиентские заявки_ <br> :black_square_button: Запрашивать подтверждение при операциях с клиентскими заявками <br> &#x1F5F9; Запрашивать подтверждение при операциях с группами клиентских заявок |
+| `show-other-messages` | 1 | 0 | _Сообщения_ <br> При получении показывать в окне сообщения <br> &nbsp;&nbsp; &#x2610; Отмеченные как важные <br> &nbsp;&nbsp; &#x1F5F9; Ошибки транзакций <br> &nbsp;&nbsp; :black_square_button: Обычные |
+| `sort-column-with-ctrl` | 0 | 1 | _Окна - Таблицы_ <br> &#x1F5F9; Плавная подсветка строк <br> :ballot_box_with_check: Сортировать по столбцу, удерживая Ctrl |
+| `confirm-dnd-operation` | 1 | 0 | _Окна - Таблицы_ <br> &#x1F5F9; Перемещать и удалять столбцы с помощью drag-and-drop <br> :black_square_button: Запрашивать подтверждение при перемещении и удалении объектов с помощью drag-and-drop |
+| **\[excel]** |  |  |  |
+|  `language_id` | 1 | 0 | _Программа - Экспорт данных_ <br> Экспорт по DDE <br> MS Excel: &nbsp; :arrow_forward: Английский |
+
+
+
