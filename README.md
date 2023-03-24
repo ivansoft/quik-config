@@ -30,6 +30,8 @@ TODO:
 | `show-other-messages` | 1 | 0 | _Сообщения_ <br> При получении показывать в окне сообщения <br> &nbsp;&nbsp; &#x2610; Отмеченные как важные <br> &nbsp;&nbsp; &#x1F5F9; Ошибки транзакций <br> &nbsp;&nbsp; :black_square_button: Обычные |
 | `sort-column-with-ctrl` | 0 | 1 | _Окна - Таблицы_ <br> &#x1F5F9; Плавная подсветка строк <br> :ballot_box_with_check: Сортировать по столбцу, удерживая Ctrl |
 | `confirm-dnd-operation` | 1 | 0 | _Окна - Таблицы_ <br> &#x1F5F9; Перемещать и удалять столбцы с помощью drag-and-drop <br> :black_square_button: Запрашивать подтверждение при перемещении и удалении объектов с помощью drag-and-drop |
+| **\[qchart-toolbar]** |  |  |  |
+|  `magneto-mode` | 0 | 65538 | _Toolbars - Graph - Magent_ |
 | **\[regional-settings]** |  |  |  |
 |  `primary-lang-id` | 0x19 | 0x09 | Меню: Система > Настройки > Языковые установки... <br> Язык: &nbsp; :arrow_forward: English[Standard Set] |
 | **\[excel]** |  |  |  |
