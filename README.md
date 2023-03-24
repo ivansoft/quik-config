@@ -48,3 +48,9 @@ TODO:
 |  `do-auto-reconnect-from-time` | 100000 | 94500 | c :clock10: 09:45:00 |
 |  `do-auto-reconnect-to-time` | 220000 | 235900 | до :clock12: 23:59:00 |
 
+## Full Order Log: Time and sales
+
+| | def | new | description |
+| --- | --- | --- | --- |
+| **\[ALL_TRADES_DATA]** |  |  |  |
+| `TQBR=SBER` |  |  | _Program - Receiving data - Anonymous trades_ <br> Instriment classes filter <br> &nbsp;&nbsp; &#x1F5F9; MOEX E&B: T+: Shares <br> &nbsp;&nbsp;&nbsp;&nbsp; Sberbank [MOEX E&B: T+: Shares] |
