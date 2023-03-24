@@ -19,6 +19,7 @@ TODO:
 |  `request-skipped` | 1 | 0 | _Программа - Сохранение данных_ <br> Сохранять для получаемых инструментов и параметров <br> &#x1F5F9; Данные, отражающие текущее состояние и всю историю изменений <br> &nbsp;&nbsp; :black_square_button: Получать пропущенные данные <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > (влияет на скорость работы) |
 | **\[transactions]** |  |  |  |
 | `save-dialog-position` | 0 | 1 | _Торговля - Заявки - Формы ввода_ <br> :ballot_box_with_check: Запоминать положение на экране <br> &#x1F5F9; Особо выделять ключевые параметры |
+| `change-operation-by-space` | 0 | 1 | _Trading - Orders_ <br> :ballot_box_with_check: Change operation by spacebar |
 | `ask-confirmation` | 1 | 0 | _Торговля - Заявки_ <br> :black_square_button: Запрашивать подтверждение <br> &#x1F5F9; Запрашивать подтверждение для групповых операций |
 | **\[ClosePositions]** |  |  |  |
 | `ask-close-positions-confirmation` | 1 | 0 | _Торговля - Закрытие позиций_ <br> :black_square_button: Запрашивать подтверждение на закрытие позиций <br> &#x1F5F9; Снимать стоп-заявки перед закрытием позиций |
